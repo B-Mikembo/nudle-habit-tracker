@@ -1,0 +1,8 @@
+logging:
+  level:
+    dev:
+      brice:
+        nudlehabittracker: INFO
+spring:
+  application:
+    name: nudleHabitTracker
