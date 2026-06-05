@@ -10,7 +10,6 @@ To mark a package, you have to add a `package-info.java` file at the package roo
 ```java
 @dev.brice.nudlehabittracker.SharedKernel
 package dev.brice.nudlehabittracker;
-
 ```
 
 or:
@@ -18,5 +17,4 @@ or:
 ```java
 @dev.brice.nudlehabittracker.BusinessContext
 package dev.brice.nudlehabittracker;
-
 ```

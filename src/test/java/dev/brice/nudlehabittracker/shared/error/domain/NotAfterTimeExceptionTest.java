@@ -2,9 +2,9 @@ package dev.brice.nudlehabittracker.shared.error.domain;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+import dev.brice.nudlehabittracker.UnitTest;
 import java.time.Instant;
 import org.junit.jupiter.api.Test;
-import dev.brice.nudlehabittracker.UnitTest;
 
 @UnitTest
 class NotAfterTimeExceptionTest {

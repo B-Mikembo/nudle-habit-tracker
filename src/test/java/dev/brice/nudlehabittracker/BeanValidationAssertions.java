@@ -2,12 +2,12 @@ package dev.brice.nudlehabittracker;
 
 import static org.assertj.core.api.Assertions.*;
 
+import dev.brice.nudlehabittracker.shared.error.domain.Assert;
 import jakarta.validation.ConstraintViolation;
 import jakarta.validation.Validation;
 import jakarta.validation.Validator;
 import java.util.Set;
 import java.util.function.Predicate;
-import dev.brice.nudlehabittracker.shared.error.domain.Assert;
 
 public final class BeanValidationAssertions {
 

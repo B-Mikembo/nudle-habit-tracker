@@ -2,8 +2,8 @@ package dev.brice.nudlehabittracker.shared.error.domain;
 
 import static org.assertj.core.api.Assertions.*;
 
-import org.junit.jupiter.api.Test;
 import dev.brice.nudlehabittracker.UnitTest;
+import org.junit.jupiter.api.Test;
 
 @UnitTest
 class NumberValueTooLowExceptionTest {

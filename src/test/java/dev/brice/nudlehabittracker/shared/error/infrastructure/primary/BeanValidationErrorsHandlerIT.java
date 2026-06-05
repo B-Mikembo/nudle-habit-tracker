@@ -3,12 +3,12 @@ package dev.brice.nudlehabittracker.shared.error.infrastructure.primary;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
+import dev.brice.nudlehabittracker.IntegrationTest;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.webmvc.test.autoconfigure.AutoConfigureMockMvc;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
-import dev.brice.nudlehabittracker.IntegrationTest;
 
 @IntegrationTest
 @AutoConfigureMockMvc
